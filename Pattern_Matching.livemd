@@ -1,0 +1,36 @@
+# Pattern Matching
+
+## Section
+
+In Elixirs = is an assignment operator it is a match operator
+LHS = RHS
+[a , a] = [1, 1]- This implies that the value of 1 is now bound variable a.
+The example of [a , a] = [1 , 2], will result into a match error, this because the variable a is bound to 1, the error will happen because all the datatypes in Elixir are immutable, we can't randomly assign new values to an existing variable inside Elixir.
+All datatypes are immutable in Elixirs because of scalability.
+Immutability helps in Scalability because, the data can be easily copied across various process
+
+```elixir
+[a, a] = [1, 1]
+```
+
+```elixir
+a = 1
+1 = a
+```
+
+```elixir
+name = "Philisiwe"
+"Philisiwe" = name
+```
+
+```elixir
+a = 1
+a = 2
+^a = 3
+```
+
+```elixir
+a = 1
+a = 2
+^a = 2
+```
