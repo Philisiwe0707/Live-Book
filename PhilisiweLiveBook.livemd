@@ -1,7 +1,0 @@
-# Untitled notebook
-
-## Section
-
-```elixir
-
-```
