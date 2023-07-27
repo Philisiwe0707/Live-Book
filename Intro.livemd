@@ -17,3 +17,4 @@ Functional programming and Elixir uses `recursion` to create loops.
 
 What is Recursion?
 Recursion is doing the same task again and again.
+Immutability
