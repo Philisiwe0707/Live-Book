@@ -1,0 +1,19 @@
+# introduction to Elixir
+
+## Section
+
+`Elixir` is a functional programming language,which is built on top of Erlang.
+Elixir and Erlang get compiled and run on an Erlang virtual Machine unknown as the `Beam`.
+Elixir is functional and it supports immutability by default, it is also fault tolerant.
+Immutability is important because it allows immense scalability
+
+`Functional programming`- simple means our whole program is made up of different functions.
+ function programming is so unique because:
+ *It uses no classes
+ *All of the data types is immutable
+ *Uses the no for loops
+
+Functional programming and Elixir uses `recursion` to create loops.
+
+What is Recursion?
+Recursion is doing the same task again and again.
